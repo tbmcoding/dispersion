@@ -4,6 +4,15 @@
 Created on Sun Oct 29 12:44:09 2017
 
 @author: thomas
+
+This file contains data sets for layered media models.
+
+List of list structure
+
+	[[layer1],	Where Layers [C11, C13, C33, C44, density, thickness]	
+	[layer2],
+	  ....
+	[Half Space]]	Half space same as layers except thickness = inf (not needed)	
 """
 
 
