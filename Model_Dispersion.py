@@ -43,3 +43,9 @@ Ti_Alt = Model_Class_2.Model_Layer_Media_array(Model_Data.Ti_Alt)
 Ti_Alt_s = Model_Class_2.Model_Layer_Media_array(Model_Data.Ti_Alt_s)
 Ti_Alt_s50 = Model_Class_2.Model_Layer_Media_array(Model_Data.Ti_Alt_s50)
 
+omega = linspace(0,100,num=75)
+c = arange(1500,3600,7)
+
+w,e,r,t,y,u = Iso2.Create_Disp(c,omega)
+
+

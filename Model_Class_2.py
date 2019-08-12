@@ -408,10 +408,11 @@ class Model_Layer_Media_array:
                 omega_s.append(z)
         #print('###############################')  
         #print(Det_Array_search.counter)
-        df = pd.DataFrame(root_c)
-        df2 = pd.DataFrame(mask_det)
-        df.to_csv("file_{}.csv".format(self.Det_Array_search_counter))
-        df2.to_csv("file_mdet_{}.csv".format(self.Det_Array_search_counter))
+        "Creating data frames for debugging inspection"
+        #df = pd.DataFrame(root_c)
+        #df2 = pd.DataFrame(mask_det)
+        #df.to_csv("file_{}.csv".format(self.Det_Array_search_counter))
+        #df2.to_csv("file_mdet_{}.csv".format(self.Det_Array_search_counter))
         if self.Det_Array_search_counter < 4:
             #print('return c',root_c)
             det,zeroCross,lpsigned,root_c,omega_s,lpsigned,mask_det,roots = self.Det_Array_search(root_c,omega_s,propertyList,precision/10)
